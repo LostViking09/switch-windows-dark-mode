@@ -13,9 +13,7 @@ export default async function Command() {
     });
 
     const scriptPath = path.join(__dirname, "assets", "ToggleTheme.ps1");
-    const { stdout, stderr } = await execAsync(
-      `powershell -NoProfile -ExecutionPolicy Bypass -File "${scriptPath}"`
-    );
+    const { stdout, stderr } = await execAsync(`powershell -NoProfile -ExecutionPolicy Bypass -File "${scriptPath}"`);
 
     if (stderr) {
       console.error("PowerShell stderr:", stderr);
