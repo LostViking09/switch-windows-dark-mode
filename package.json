@@ -1,17 +1,17 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "switch-dark-mode",
-  "title": "Switch Dark Mode",
+  "name": "switch-windows-dark-mode",
+  "title": "Switch Windows Dark Mode",
   "description": "Provides ability to switch Windows Dark/Light mode insantly with a single command.",
   "icon": "extension-icon.png",
   "license": "MIT",
   "commands": [
     {
-      "name": "switch-dark---light-mode",
-      "title": "Switch Dark - Light Mode",
+      "name": "switch-dark-mode",
+      "title": "Switch Windows Theme",
       "description": "Switch the currently used system and app color mode from dark to light or light to dark.",
       "mode": "no-view",
-      "subtitle": ""
+      "subtitle": "Switch between Dark and Light mode"
     }
   ],
   "dependencies": {
