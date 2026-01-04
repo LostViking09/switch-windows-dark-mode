@@ -11,7 +11,7 @@
       "title": "Switch Windows Theme",
       "description": "Switch the currently used system and app color mode from dark to light or light to dark.",
       "mode": "no-view",
-      "subtitle": "Switch between Dark and Light mode"
+      "subtitle": "Switch Dark / Light mode"
     }
   ],
   "dependencies": {
