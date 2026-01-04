@@ -7,6 +7,11 @@ const execAsync = promisify(exec);
 
 export default async function Command() {
   try {
+    await showToast({
+      style: Toast.Style.Animated,
+      title: "Switching theme...",
+    });
+
     const scriptPath = path.join(__dirname, "assets", "ToggleTheme.ps1");
     const { stdout, stderr } = await execAsync(
       `powershell -NoProfile -ExecutionPolicy Bypass -File "${scriptPath}"`
